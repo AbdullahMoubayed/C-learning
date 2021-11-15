@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿var random = new Random().Next(1, 101);
+Console.WriteLine(random);
+Console.WriteLine("Gissa talet!");
+var talet = 0;
+
+for (int i = talet; i != random;)
+{
+    talet = Int32.Parse(Console.ReadLine());
+    if (talet != random)
+    {
+        Console.WriteLine("Fel, gissa igen!");
+        continue;
+    }
+    else { 
+        Console.WriteLine("Rätt!");
+        break;
+    }
+}
+Console.WriteLine("Jajj, I can use vscode with c#");
