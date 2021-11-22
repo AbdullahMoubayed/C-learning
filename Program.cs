@@ -1,19 +1,16 @@
-﻿var random = new Random().Next(1, 101);
-Console.WriteLine(random);
-Console.WriteLine("Gissa talet!");
-var talet = 0;
-
-for (int i = talet; i != random;)
-{
-    talet = Int32.Parse(Console.ReadLine());
-    if (talet != random)
-    {
-        Console.WriteLine("Fel, gissa igen!");
-        continue;
+﻿Console.WriteLine("Ange bredd: ");
+int bredd = 10;
+ 
+Console.WriteLine("Ange höjd: ");
+int höjd = 10;
+ 
+var hash = "#";
+var zero = "0";
+ 
+for (int i = 0; i < höjd; i++){
+    for (int j = 0; j < bredd; j++){
+        Console.WriteLine(hash + zero);
     }
-    else { 
-        Console.WriteLine("Rätt!");
-        break;
-    }
+ 
+    Console.WriteLine();
 }
-Console.WriteLine("Jajj, I can use vscode with c#");
