@@ -9,5 +9,3 @@ for (int i = år; i <= 2050; i++)
         Console.WriteLine(i);
     }
 }
-
-
