@@ -1,19 +1,12 @@
-﻿var random = new Random().Next(1, 101);
-Console.WriteLine(random);
-Console.WriteLine("Gissa talet!");
-var talet = 0;
+﻿int before = 0;
+int after = 1;
 
-for (int i = talet; i != random;)
+for (; after < 100000000;)
 {
-    talet = Int32.Parse(Console.ReadLine());
-    if (talet != random)
-    {
-        Console.WriteLine("Fel, gissa igen!");
-        continue;
-    }
-    else { 
-        Console.WriteLine("Rätt!");
-        break;
-    }
+  int answer = (after + before);
+  
+  Console.WriteLine(answer);
+
+  before = after;
+  after = answer;
 }
-Console.WriteLine("Jajj, I can use vscode with c#");
