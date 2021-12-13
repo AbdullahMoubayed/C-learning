@@ -1,7 +1,46 @@
-﻿String a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p;
+﻿String a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, point;
+
+String [] santa = { "sant", "S", "ja", "true", "T"};
+String [] falskta = { "falskt", "f", "nej", "false", "f"};
+
+static void checkAnswer(String answer, String inmatning){
+
+  Boolean inmatning;
+
+  foreach (String item in santa)
+  {
+    int match = 0;
+
+    if (inmatning == item)
+    {
+      match++;
+    }
+
+    if (match > 0)
+    {
+        inmatning = true;
+    }
+  }
+
+  foreach (String item in falskta)
+  {
+    int match = 0;
+
+    if (inmatning == item)
+    {
+      match++;
+    }
+
+    if (match > 0)
+    {
+        inmatning = false;
+    }
+  }
+}
 
 Console.WriteLine("Det kan finnas mer än två masters i ett Bluetooth nätverk.");
 var answer_a = Console.ReadLine();
+
 
 Console.WriteLine("Harald Blåtand uppfann Bluetooth tekniken.");
 var answer_b = Console.ReadLine();
