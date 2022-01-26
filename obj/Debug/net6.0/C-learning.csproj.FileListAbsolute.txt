@@ -1,0 +1,5 @@
+C:\Users\eam0127\Documents\GitHub\C-learning\obj\Debug\net6.0\C-learning.csproj.AssemblyReference.cache
+C:\Users\eam0127\Documents\GitHub\C-learning\obj\Debug\net6.0\C-learning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eam0127\Documents\GitHub\C-learning\obj\Debug\net6.0\C-learning.AssemblyInfoInputs.cache
+C:\Users\eam0127\Documents\GitHub\C-learning\obj\Debug\net6.0\C-learning.AssemblyInfo.cs
+C:\Users\eam0127\Documents\GitHub\C-learning\obj\Debug\net6.0\C-learning.csproj.CoreCompileInputs.cache
